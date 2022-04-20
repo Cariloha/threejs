@@ -1,0 +1,43 @@
+/*
+Theme Name: 
+Text Domain: 
+Version: 1.0.0
+Author: SciStories
+Author URI: http://scistories.com
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Roboto&display=swap");
+:root {
+  /* Fonts */
+  --mainFont: "Oswald", sans-serif;
+  --textFont: "Roboto", sans-serif;
+
+  /*Colors*/
+  --primaryColor: #051f34;
+  --textGray: #5d5d5d;
+  --secondTitle: #c1592b;
+  --bgGray: #f3f3f4;
+  --borderGray: #d9d9d9;
+  --black: #232323;
+  --white: #ffffff;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /*10 px = 1rem */
+}
+
+body {
+  font-size: 14px; /* px fallback*/
+  font-size: 1.4rem; /*default font size for document*/
+  line-height: 1.5;
+  font-family: var(--textFont);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
